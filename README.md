@@ -1,1 +1,1 @@
-# thrumbo-weapons
+# Thrumbo Weapons
