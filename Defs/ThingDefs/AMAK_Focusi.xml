@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+    <defName>TribalFocus</defName>
+    <label>Tribal Focus</label>
+    <description>A jade orb inlaid with gold. It hums with an internal power.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Tribal_Focus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+     <costList>
+      <Jade>20</Jade>
+      <Gold>2</Gold>
+    </costList>
+     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableStonecutter</li>
+      </recipeUsers>
+     </recipeMaker> 
+    <statBases>
+      <MarketValue>350</MarketValue>
+      <Mass>2</Mass>
+      <WorkToMake>4000</WorkToMake>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>EltexFocus</defName>
+    <label>Eltex Focus</label>
+    <description>The glowy bit of an eltex staff. You've removed it for some reason. I hope you know what you are doing.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Eltex_Focus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+         <costList>
+            <EltexThreading>100</EltexThreading>
+            <ComponentSpacer>1</ComponentSpacer>
+         </costList>
+     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+     </recipeMaker> 
+    <statBases>
+      <MarketValue>1450</MarketValue>
+      <Mass>0.7</Mass>
+      <WorkToMake>6000</WorkToMake>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

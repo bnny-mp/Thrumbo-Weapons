@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThingDef ParentName="BaseMeleeThrumbo">
+    <defName>ThrumboStaffEltex</defName>
+    <label>Eltex Thrumbo Staff</label>
+    <description>A staff used by those of high standing to enhance psychic abilities. It is a symbol of both power and renown. Can also be used for murder, if needed.</description>
+    <graphicData>
+      <texPath>Weapons/Amak/Thrumbo_Staff_Eltex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.70</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.100</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>6.5</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <EltexFocus>1</EltexFocus>
+      <ThrumboHorn>2</ThrumboHorn>
+      <Plasteel>20</Plasteel>
+    </costList>
+     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+     </recipeMaker> 
+     <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tools>
+      <li>
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <armorPenetration>0.42</armorPenetration>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Name="HarvestShirt">
+	<defName>HarvestShirt</defName>
+		<label>Harvest Shirt</label>
+		<description>Harvest the psychically sensitive materiels from an Eltex Robe.</description>
+ <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PsyfocusShirt</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+          <thingDefs>
+            <li>Apparel_PsyfocusShirt</li>
+          </thingDefs>
+	</fixedIngredientFilter>
+      <recipeUsers Inherit="False">
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+		<products>
+			<EltexThreading>34</EltexThreading>
+		</products>
+		<workAmount>250</workAmount>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+</Defs>

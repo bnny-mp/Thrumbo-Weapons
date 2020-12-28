@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThingDef ParentName="BaseMeleeThrumbo">
+    <defName>ThrumboHalberdSteel</defName>
+    <label>Thrumbo Halberd</label>
+    <description>A thrumbo horn secured to a large steel staff. Be wary of friendlies when swinging.</description>
+    <graphicData>
+      <texPath>Weapons/Amak/Thrumbo_halberd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.03</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.060</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets> 
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>8</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ThrumboHorn>1</ThrumboHorn>
+    </costList>
+     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+     </recipeMaker> 
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>31</power>
+        <armorPenetration>0.70</armorPenetration>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+        <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <armorPenetration>0.42</armorPenetration>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Thrumbo Weapons</name>
+  <author>Mistress Mia</author>
+  <packageId>MistressMia.ModsForZoey.HornWeapons</packageId>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description>Adds weapons that are craftable via thrumbo horns. Please keep these away from any bunnies. Trust me, you don't want the kind of trouble that would bring.</description>
+</ModMetaData>

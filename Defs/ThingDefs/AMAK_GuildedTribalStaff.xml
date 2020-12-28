@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <ThingDef ParentName="BaseMeleeThrumbo">
+    <defName>GuildedStaffTribal</defName>
+    <label>Tribal Staff (Guilded)</label>
+    <description>A staff used by tribal people to enhance psychic abilities. It looks like some work was put into making this look nice.</description>
+    <graphicData>
+      <texPath>Weapons/Amak/JadeGilded</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.40</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.100</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <smeltable>false</smeltable>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>3.2</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Gold>1</Gold>
+      <TribalFocus>1</TribalFocus>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+      <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tools>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.3</cooldownTime>
+        <armorPenetration>0.18</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>
